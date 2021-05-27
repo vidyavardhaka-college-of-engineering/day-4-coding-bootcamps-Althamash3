@@ -24,7 +24,7 @@ int main()
             printf("Enter the value of element with index %d %d\n",k,l);
             scanf("%d",&arraya[i][j]);
             largest = arraya[i][j]>largest ? arraya[i][j] :largest;
-            smallest =  arraya[i][j]<smallest ? arraya[i][j] :largest;
+            smallest =  arraya[i][j]<smallest ? arraya[i][j] : smallest;
         }
     }
     printf("The largest number is %d and the smallest number in the array is %d",largest,smallest);
